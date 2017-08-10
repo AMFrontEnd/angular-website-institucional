@@ -6,11 +6,13 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Nossa Visão</a></li>
-                <li><a href="#">Contato</a></li>
+                <!--  [routerLink]="'contato'" String literal -  [routerLink]="contato" variavel -->
+                <li><a [routerLink]="'contato'">Contato</a></li>
             </ul>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
     </div>
     <!-- /.container-fluid -->
 </nav>
+<router-outlet></router-outlet>
 
